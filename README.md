@@ -2,10 +2,13 @@ Segmentation of Multivariate Industrial Time Series Data Based on Dynamic Latent
 ====
 
 # dipcaSegment
-This project implements an time series segmentation algorithm introduced in the following paper:
-Shaowen Lu and Shuyu Huang, "Segmentation of multivariate industrial time series data based on dynamic latent variable predictability," IEEE Access, vol. 8, pp. 112092–112103, 2020. [pdf](https://ieeexplore.ieee.org/document/9116988)
 
-The proposed algorithm recursively merges neighborhood subsequences through a heuristic bottom-up procedure. The cost of merging is defined as the mutual predictability of the subsequence models which are constructed using the dynamic-inner principal component analysis algorithm. Then, the goal becomes finding the segmentation scheme which minimizes the averaged dynamic prediction errors of each subsequence model.
+This project implements an time series segmentation algorithm introduced in the following paper:
+
+>>Shaowen Lu and Shuyu Huang, "Segmentation of multivariate industrial time series data based on dynamic latent variable predictability," IEEE Access, vol. 8, pp. 112092–112103, 2020. 
+>>[open access pdf](https://ieeexplore.ieee.org/document/9116988)
+
+The proposed algorithm recursively merges neighborhood subsequences through a heuristic bottom-up procedure. The cost of merging is defined as the mutual predictability of the subsequence models which are constructed using the dynamic-inner principal component analysis algorithm (DiPCA). Then, the goal becomes finding the segmentation scheme which minimizes the averaged dynamic prediction errors of each subsequence model.
 
 Please cite the paper if using the code:
 (```
