@@ -26,8 +26,8 @@ Please cite the paper if using the code:
 ```
 
 # usage
-(1) run demo example: "demo_DiPCAseg_lasso.m"
-(2) run "synthetical_TS_generate.m" to generate new data
+>* run demo example: "demo_DiPCAseg_lasso.m"
+>* run "synthetical_TS_generate.m" to generate new data
 
 # license
 MIT © Shaowen Lu
